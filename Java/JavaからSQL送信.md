@@ -13,7 +13,7 @@ int result = stmt.executeUpdate("INSERT INTO `Users`(`name`, `id`) VALUES ('yuua
 
 String namestr = null;
 while (rs.next()) {
-    namestr = rs.getBoolean("name");
+    namestr = rs.getString("name");
 }
 stmt.close();
 con.close();
