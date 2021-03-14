@@ -10,6 +10,7 @@ Windows10 20H2
 
 `Win+R`を押し、出てきたウインドウに`drivers`と入力し、`Enter`を押します。  
 開いたフォルダの中の`etc`フォルダの中に`hosts`というファイルがあります。
+(フルパス:`C:\Windows\System32\drivers\etc\hosts`)
 
 ### 02.中身を書き換える
 
